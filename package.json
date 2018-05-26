@@ -1,0 +1,29 @@
+{
+  "name": "g9training-webservice",
+  "version": "1.0.0",
+  "description": "Backend do sistema g8training",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "gitlab.com/PiVMC/materialhospitalar-webservice"
+  },
+  "author": "Lucas Pinho Badaró, Rodrigo Silva Lima",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "http": "0.0.0",
+    "jsonwebtoken": "^8.1.0",
+    "md5": "^2.2.1",
+    "moment": "^2.22.1",
+    "morgan": "^1.9.0",
+    "mysql": "^2.15.0",
+    "node-datetime": "^2.0.3"
+  }
+}
